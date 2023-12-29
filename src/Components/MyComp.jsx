@@ -4,7 +4,7 @@ import axios from 'axios'
 const MyComp=()=>{
     
 
-
+/////
 const fetchData=async()=>{
 
     try{
@@ -16,7 +16,7 @@ const fetchData=async()=>{
 console.error(e)
     }
 }
-
+////
 const fetchAxios=async()=>{
     debugger
 const res = await axios.get('https://jsonplaceholder.typicode.com/posts')
